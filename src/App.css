@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: rgba(7, 17, 49, 0.267);
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-header a{
+  text-decoration: none;
+  font-weight: 500;
+}
+.App-header a:hover{
+  color: rgb(255, 0, 43);
+}
+
+.App-link {
+  color: #fb6182;
+  text-decoration: none;
+}
+
+
+.App-header {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f1f1f1;
+}
+
+.App-header li {
+  display: inline;
+  margin-right: 10px;
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 600px) {
+  .App-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .App-header li {
+    margin-bottom: 10px;
+  }
+}

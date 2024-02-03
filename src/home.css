@@ -1,0 +1,30 @@
+.mybody{
+   margin-top: -20px;
+}
+.Cardone{
+    border: 1px solid black;
+    text-align: left;
+    color: rgb(242, 242, 252);
+    background-color:whitesmoke;
+    margin-top: 10px;
+}
+.Cardone h3{
+margin: 20px 0px 0px 10px;
+color: blue;
+}
+.nav-link {
+    text-decoration: none;
+}
+
+.dropdown-item {
+    text-decoration: none;
+}
+.fashion{
+    text-align: left;
+    color: blue;
+
+}
+.about-us-column {
+    border: none; /* Removes the border */
+    border-right: 2px solid white;
+  }
